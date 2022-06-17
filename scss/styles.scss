@@ -134,6 +134,17 @@ ul {
   
   .logo {
     margin-bottom: 100px;
-  }
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    }
   
+ $lista1: rgb(134, 123, 123), rgb(175, 135, 157), rgb(241, 235, 236);
+
+ $primario: nth($list:1, $n:1 )
+
+
+
+  
+
   
