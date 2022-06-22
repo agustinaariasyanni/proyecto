@@ -23,8 +23,6 @@ li {
 }
 
 body {
-  background-image: url(../imagen/fondo2.jpg);
-  background-size: cover;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
@@ -149,7 +147,7 @@ div.book img {
 }
 
 div.book:hover {
-  border: 1px solid rgb(181, 131, 140);
+  border: 0px solid rgb(181, 131, 140);
   transform: rotate(-5deg);
 }
 
@@ -158,4 +156,9 @@ div.pie {
   text-shadow: 2px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: large;
+}
+
+.imgproductos {
+  margin: 200px;
+  border: 200px;
 }/*# sourceMappingURL=styles.css.map */
