@@ -132,19 +132,19 @@ width: $width;
     @include sizes(500px,50px )
   }
     
-div.book {
+div.book1 {
     margin: 50px 100px  ;
     width: 300px;
     float: left;
    box-shadow: 0 8px 8px 0 #131212, 0 6px 20px 0 #25181b
 }
 
-div.book img {
+div.book1 img {
     width: 100%;
     height: 200px;
   } 
 
-  div.book:hover {
+  div.book1:hover {
     border: 0px solid rgb(181, 131, 140);
     transform: rotate(-5deg);
   }
@@ -157,7 +157,27 @@ div.pie {
 }
 
 .imgproductos {
-    margin: 200px;
-   border: 200px;
-  }
+  margin: 50px 50px  ;
+  height: 10px;
+  width: 200px;
+  float: left;
+ box-shadow: 0 8px 8px 0 #131212, 0 6px 20px 0 #25181b
+}
+
+div.book {
+  margin: 30px  ;
+  width: 300px;
+  float: left;
+ box-shadow: 0 8px 8px 0 #131212, 0 6px 20px 0 #25181b
+}
+div.book img {
+  width: 90%;
+  height: 300px;
+} 
+div.pie1 {
+  text-align: center;
+ font-family: 'Times New Roman', Times, serif;
+  font-size: xx-large;
+}
+
 
