@@ -60,18 +60,7 @@ ul {
     }
   }
   
-  .texto {
-    width: 900px;
-    height: 100px;
-    border: 6px solid rgb(134, 123, 123);
-    margin: 30px;
-    text-align: center;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  
-    font-size: larger;
-    transform: translateY(100px);
-  }
-  
+
   
   .btn1 :hover {
     border: 3px solid transparent;
@@ -128,10 +117,6 @@ height: $height;
 width: $width;
   }
 
-  .footer {
-    @include sizes(500px,50px )
-  }
-    
 div.book1 {
     margin: 50px 100px  ;
     width: 300px;
@@ -179,5 +164,20 @@ div.pie1 {
  font-family: 'Times New Roman', Times, serif;
   font-size: xx-large;
 }
+
+div.pie2 {
+  text-align: center;
+ font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  background-color: rgb(212, 203, 206);
+}
+
+.footer1 {
+
+  width: 500px;
+  height: 50px;
+  margin: 0px;
+}
+
 
 
