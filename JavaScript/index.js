@@ -10,15 +10,16 @@ function cuadrado(numero) {
     return numero * numero;
 }
 
-console.log(cuadrado(2));
+console.log(cuadrado(9));
 
-var numeros = [1, 2, 3, 10, 20];
+let numeros = [1, 2, 3, 10, 40];
 function sumarArreglo(arreglo){
-var sumaTotal = 0;
-for (var i=0; i < arreglo.length; i++) {
+let sumaTotal = 0;
+for (let i=0; i < arreglo.length; i++) {
     sumaTotal += arreglo [i];
 }
 return sumaTotal;
 }
 
 console.log(sumarArreglo(numeros));
+
