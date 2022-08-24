@@ -10,3 +10,5 @@ function textoDeBotones() {
     for (let boton of boton)
    console.log(button.innerText)
 }
+
+
